@@ -11,10 +11,10 @@ package ru.avalon.java.dev.j10.labs.shapes;
  */
 public class Rectangle implements Shape {
 
-    double a;
-    double b;
+    private double a;
+    private double b;
 
-    int rotation;
+    private int rotation;
 
     public Rectangle(double a, double b, int rotation) {
         this.a = a;

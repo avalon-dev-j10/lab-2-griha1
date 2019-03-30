@@ -10,7 +10,7 @@ package ru.avalon.java.dev.j10.labs.shapes;
  */
 public class Circle implements Ellipse, Shape {
 
-    double r;
+    private double r;
     
     public Circle(double r){
         this.r = r;
